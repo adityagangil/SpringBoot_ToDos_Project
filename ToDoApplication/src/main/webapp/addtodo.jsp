@@ -66,9 +66,9 @@ nav a:hover {
 </style>
 </head>
 <body>
-	<%@include file="common/header.html"%>
+	
 	<%@include file="common/nav.html"%>
-	<br />
+	<br /><br /><br /><br /><br /><br /><br /><br />
 	<form method="get" action="registertodo">
 		To do Description<input type="text" name="descr"><br /> Target
 		Date<input type="date" name="tdate"><br /> <input
@@ -76,7 +76,7 @@ nav a:hover {
 	</form>
 
 
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 	<%@include file="common/footer.html"%>

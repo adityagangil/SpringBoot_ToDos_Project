@@ -67,9 +67,9 @@ nav a:hover {
 </style>
 </head>
 <body>
-<%@include file="common/header.html" %>
+
 <%@include file="common/nav.html" %>
-<br/>
+<br/><br /><br /><br /><br /><br /><br /><br />
 <form method="get" action="updatetodo">
 <input type="hidden" name="id" value="${obj.id}">
 To do Description<input type="text" name="descr" value="${obj.descr}"><br/>
@@ -78,7 +78,7 @@ Target Date<input type="date" name="tdate" value="${obj.tdate}"><br/>
 </form>
 
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 <%@include file="common/footer.html" %>
